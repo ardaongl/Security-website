@@ -364,15 +364,15 @@ export default function Index() {
                 </div>
                 <div className="sm:col-span-1">
                   <label className="mb-1 block text-sm font-medium text-foreground">Email</label>
-                  <input type="email" name="email" required className="w-full rounded-xl border bg-background px-4 py-3 text-sm outline-none ring-primary/0 transition focus:ring-2" placeholder="jane@company.com" />
+                  <input type="email" name="email" required className="w-full rounded-xl border bg-background px-4 py-3 text-sm outline-none ring-primary/0 transition focus:ring-2" placeholder="example@gmail.com" />
                 </div>
                 <div className="sm:col-span-1">
                   <label className="mb-1 block text-sm font-medium text-foreground">Telefon</label>
-                  <input type="tel" name="phone" className="w-full rounded-xl border bg-background px-4 py-3 text-sm outline-none ring-primary/0 transition focus:ring-2" placeholder="(555) 123-4567" />
+                  <input type="tel" name="phone" className="w-full rounded-xl border bg-background px-4 py-3 text-sm outline-none ring-primary/0 transition focus:ring-2" placeholder="555 123 4567" />
                 </div>
                 <div className="sm:col-span-2">
                   <label className="mb-1 block text-sm font-medium text-foreground">Mesaj</label>
-                  <textarea name="message" rows={4} className="w-full resize-none rounded-xl border bg-background px-4 py-3 text-sm outline-none ring-primary/0 transition focus:ring-2" placeholder="Tell us about your project..." />
+                  <textarea name="message" rows={4} className="w-full resize-none rounded-xl border bg-background px-4 py-3 text-sm outline-none ring-primary/0 transition focus:ring-2" placeholder="Mesajınızı giriniz..." />
                 </div>
                 <div className="sm:col-span-2 flex items-center justify-between">
                   <div className="flex items-center gap-3 text-sm text-muted-foreground">
