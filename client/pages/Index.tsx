@@ -134,7 +134,6 @@ export default function Index() {
               >
                 {isDark ? <Sun className="h-5 w-5" /> : <Moon className="h-5 w-5" />}
               </button>
-              <a href="#contact" className="inline-flex items-center rounded-full bg-primary px-4 py-2 text-sm font-semibold text-primary-foreground shadow-lg">Consult</a>
             </div>
           </div>
         </div>
@@ -195,18 +194,7 @@ export default function Index() {
                 </a>
               </div>
             </div>
-            <div className="reveal md:justify-self-end">
-              <div className="glass relative mx-auto aspect-[4/3] w-full max-w-md overflow-hidden rounded-3xl border border-white/15">
-                <div className="absolute inset-0 bg-gradient-to-tr from-white/10 to-transparent" />
-                <div className="absolute -right-12 top-12 h-64 w-64 rounded-full bg-white/10 blur-2xl" />
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <Camera className="h-40 w-40 text-white/80" />
-                </div>
-                <div className="absolute bottom-0 left-0 right-0 bg-black/30 p-4 text-sm text-white/90 backdrop-blur">
-                  4K Smart IP Camera • Night Vision • Motion Detection
-                </div>
-              </div>
-            </div>
+            
           </div>
 
           <div className="reveal mt-16 flex items-center justify-center">
